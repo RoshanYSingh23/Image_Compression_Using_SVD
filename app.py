@@ -12,7 +12,7 @@ uploaded_file = st.file_uploader("Upload an image (JPG/PNG)", type=["jpg", "jpeg
 if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
 else:
-    image = Image.open("AuroraBorealis.jpg").convert("RGB")
+    image = Image.open("hacker.jpeg").convert("RGB")
 
 # Convert to arrays
 img_array_rgb = np.array(image)
