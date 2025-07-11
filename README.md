@@ -7,15 +7,17 @@ The project includes a **Streamlit web app** that allows interactive control of 
 ---
 
 ## 📁 Project Structure
-📦 Image_Compression_SVD
-├── embedding.py # Contains the core compression logic
-├── app.py # Streamlit app for UI and user interaction
-├── hacker.jpeg # Example image used in the app
-├── AuroraBorealis.jpg # Another sample image
-├── .gitignore # Git ignore rules (excludes pycache)
-├── README.md # This documentation file
-└── Report.pdf # Report explaining the technique and implementation
 
+
+| File                | Purpose                                                           |
+|---------------------|-------------------------------------------------------------------|
+| `embedding.py`      | Contains the core compression logic                               |
+| `app.py`            | Streamlit app for UI and user interaction                         |
+| `hacker.jpeg`       | Example image used in the app                                     |
+| `AuroraBorealis.jpg`| Another sample image                                              |
+| `Report.pdf`        | Project report describing the design, implementation, and results |
+| `README.md`         | This README file                                                  |
+| `.gitignore`        | Git ignore rules (excludes pycache)                               |
 
 ---
 
@@ -42,6 +44,7 @@ The project includes a **Streamlit web app** that allows interactive control of 
     ```bash
     pip install streamlit numpy opencv-python pillow
     ```
+---
 
 ## 🚀 Running the App
 
@@ -51,6 +54,8 @@ The project includes a **Streamlit web app** that allows interactive control of 
     ```
 
 2. **Then go to http://localhost:8501 in your browser.**
+
+---
 
 ## 🖼 What You’ll See
 
@@ -65,6 +70,8 @@ The project includes a **Streamlit web app** that allows interactive control of 
     b. The compressed image
 
 3. You can adjust k and immediately observe how compression quality changes.
+
+---
 
 ## ✍️ Author
 
